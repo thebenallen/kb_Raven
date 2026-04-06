@@ -11,7 +11,7 @@
     ],
     "widgets": {
         "input": null,
-        "output": "kbaseReportView"
+        "output": ""
     },
     "job_id_output_field": "docker",
     "parameters": [
