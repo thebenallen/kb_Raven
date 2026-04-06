@@ -1,0 +1,45 @@
+name: Assemble Long Reads with Raven
+tooltip: |
+  Assemble long, uncorrected reads with the Raven assembler and produce an Assembly object.
+  Optionally export an assembly graph (GFA) as a downloadable file.
+
+screenshots: []
+icon: icon.png
+
+method-suggestions:
+    related:
+        - kb_filtlong/run_kb_filtlong
+        - kb_nanoplot/run_kb_nanoplot
+
+parameters:
+    reads_ref:
+        ui-name: |
+            Long-read input
+        short-hint: |
+            Select a ReadsSet, SingleEndLibrary, or PairedEndLibrary containing long reads.
+
+    output_assembly_name:
+        ui-name: |
+            Output Assembly name
+        short-hint: |
+            Name of the Assembly object that will be created in your Narrative.
+
+    emit_gfa:
+        ui-name: |
+            Export GFA graph
+        short-hint: |
+            If enabled, produce a GFA assembly graph file and include it as a downloadable output.
+
+description: |
+  This app wraps the Raven long-read assembler.
+  It accepts long-read inputs from a ReadsSet, SingleEndLibrary, or PairedEndLibrary,
+  and outputs a KBase Assembly object.
+
+  Advanced Raven parameters are fixed by the app implementation for reproducibility.
+
+  If "Export GFA graph" is enabled, the app will write a GFA assembly graph and attach it
+  to the report as a downloadable file.
+
+publications:
+    - display-text: Raven GitHub repository
+      link: https://github.com/lbcb-sci/raven
