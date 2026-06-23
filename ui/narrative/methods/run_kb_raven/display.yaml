@@ -4,7 +4,7 @@ tooltip: |
   Optionally export an assembly graph (GFA) as a downloadable file.
 
 screenshots: []
-icon: icon.png
+icon: raven.png
 
 method-suggestions:
     related:
