@@ -1,4 +1,4 @@
-name: Assemble Long Reads with Raven
+name: Assemble Long Reads with Raven - v1.8.3
 tooltip: |
   Assemble long, uncorrected reads with the Raven assembler and produce an Assembly object.
   Optionally export an assembly graph (GFA) as a downloadable file.

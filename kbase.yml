@@ -2,14 +2,14 @@ module-name:
     kb_raven
 
 module-description:
-    A KBase module
+    A KBase wrapper for the Raven long-read genome assembler (v1.8.3) for uncorrected long reads. 
 
 service-language:
     python
 
 module-version:
-    0.0.1
+    0.1.0
 
 owners:
-    [ac.shahnam, cshahnam]
+    [cshahnam, allenbh]
 
