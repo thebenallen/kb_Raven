@@ -47,7 +47,8 @@
                 "valid_ws_types": [
                     "KBaseGenomeAnnotations.Assembly"
                 ],
-                "is_output_name": true
+                "is_output_name": true,
+                "placeholder": ".Raven"
             }
         },
         {
